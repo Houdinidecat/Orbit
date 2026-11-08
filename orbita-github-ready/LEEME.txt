@@ -1,0 +1,33 @@
+ÓRBITA — ARCHIVOS FUENTE Y PREPARACIÓN PARA RAILWAY
+
+Autora: Elena Aurora Islas Martinez
+Curso: Conceptualización de servicios en la nube
+Código: 212487959
+Contacto: auroraislasmtz@gmail.com
+
+CÓMO ABRIR
+Abre dist/index.html con tu navegador. No necesitas instalar nada ni tener un
+servidor. Conserva la carpeta dist completa para que se carguen las imágenes y
+los estilos. Los enlaces externos requieren conexión a internet.
+
+ARCHIVOS
+dist/index.html           Página principal.
+dist/styles.css           Diseño y adaptación a pantallas pequeñas.
+dist/procedimiento.html   Documentación del punto 2 y fuentes consultadas.
+dist/assets/logo-orbita.svg   Imagen del logo original.
+dist/assets/universo.jpg      Imagen de fondo de NASA, PIA12348.
+PROCEDIMIENTO.txt         Versión de texto de la documentación.
+Staticfile                Configuración de Railway/Railpack: root: dist.
+
+TECNOLOGÍAS Y PLATAFORMA
+HTML5 y CSS3. Plataforma seleccionada: Railway.
+Recurso de introducción consultado: Quick Start Tutorial de Railway.
+https://docs.railway.com/quick-start
+
+PUBLICACIÓN FUTURA
+La estudiante realizará el despliegue en Railway por separado. Desde Railway,
+selecciona el repositorio Houdinidecat/Orbit, conserva la raíz del repositorio
+y despliega. Staticfile indica a Railpack que sirva dist/ mediante Caddy.
+Después genera un dominio en el servicio y comprueba el sitio.
+No se necesita activar GitHub Pages: GitHub guarda el código y Railway aloja
+la página. Esta entrega no ha ejecutado ningún despliegue en Railway.
